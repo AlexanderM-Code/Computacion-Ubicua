@@ -1,2 +1,2 @@
-# Computaci-n-Ubicua
+# Computacion-Ubicua
 Laboratorios - Computación Ubicua

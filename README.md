@@ -9,13 +9,15 @@ Laboratorios, robot MultiBot y proyecto final de la materia **Computación Ubicu
 
 | Contenido | |
 | :-- | :-- |
-| [Proyecto final: cerradura con RFID](#proyecto-final-cerradura-inteligente-con-rfid) | Lector RC522, tarjetas autorizadas, LEDs de estado y cerradura con transistor |
-| [Laboratorios 1 a 7](#laboratorios) | LED, pulsador, PWM, temperatura, humedad, LCD y ultrasonido, con simulador en línea |
-| [MultiBot](#multibot) | Carro de dos motores con puente H y control por radio |
+| [Proyecto final: cerradura con RFID](#proyecto-final-cerradura-inteligente-con-rfid) | En equipo · lector RC522, tarjetas autorizadas, LEDs de estado y cerradura con transistor |
+| [Laboratorios 1 a 7](#laboratorios) | Individual · LED, pulsador, PWM, temperatura, humedad, LCD y ultrasonido, con simulador en línea |
+| [MultiBot](#multibot) | Individual · carro de dos motores con puente H y control por radio |
 
 ---
 
 ## Proyecto final: cerradura inteligente con RFID
+
+> **Proyecto en equipo:** Alexander Mejía Ospina, Luis Miguel Muñoz Rendón y Santiago Mayorga Hueso. Los laboratorios y el MultiBot son trabajo individual.
 
 Reemplaza la llave por una tarjeta o llavero RFID: al acercarla al lector, el Arduino compara su identificador (UID) con una lista de tarjetas autorizadas y, si coincide, acciona la cerradura durante 5 segundos.
 
@@ -40,10 +42,10 @@ flowchart LR
 - **Lectura RFID:** el módulo RC522 se comunica con el Arduino por SPI y entrega el UID de 4 bytes de la tarjeta.
 - **Autorización:** el UID se compara byte a byte con la lista `authorizedUIDs`. Agregar una tarjeta es agregar una línea.
 - **Sin bloquear el programa:** el parpadeo del LED y el tiempo de la cerradura se controlan con `millis()` en lugar de `delay()`, así el lector sigue atento mientras la cerradura está abierta.
-- **Potencia:** el Arduino no alimenta la cerradura directamente. Un transistor de potencia (TIP122) la activa con una señal PWM desde el pin 6.
+- **Potencia:** el Arduino no alimenta la cerradura directamente. Un transistor de potencia (TIP120) la activa con una señal PWM desde el pin 6.
 - **Diagnóstico:** cada lectura se registra en el monitor serial con el UID y el resultado.
 
-**Componentes:** Arduino UNO R3, lector RFID RC522 con tarjeta y llavero, cerradura (motor DC / solenoide), transistor TIP122, 3 LEDs (verde, rojo y azul), resistencias, protoboard y fuente DC.
+**Componentes:** Arduino UNO R3, lector RFID RC522 con tarjeta y llavero, cerradura (motor DC / solenoide), transistor TIP120, 3 LEDs (verde, rojo y azul), resistencias, protoboard y fuente DC.
 
 ---
 

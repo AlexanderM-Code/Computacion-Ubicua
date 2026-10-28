@@ -51,17 +51,17 @@ flowchart LR
 
 ## Laboratorios
 
-Cada carpeta tiene el código listo para abrir en el IDE de Arduino y una foto del montaje. Los simuladores funcionan en el navegador, sin hardware.
+Cada carpeta tiene el código listo para abrir en el IDE de Arduino, el circuito en el simulador y una foto del montaje real. Los simuladores funcionan en el navegador, sin hardware: haz clic en la imagen para abrirlos.
 
-| # | Laboratorio | Qué aprendí | Simulador | Montaje |
+| # | Laboratorio | Qué aprendí | Circuito | Simulador |
 | :-: | :-- | :-- | :-- | :-: |
-| 1 | [Parpadeo de un LED](laboratorios/01-parpadeo-led) | Salidas digitales y tiempos con `delay()` | [Tinkercad](https://www.tinkercad.com/things/cYyP2rRWnsI-laboratorio-1) | <img src="laboratorios/01-parpadeo-led/montaje.jpg" width="120"> |
-| 2 | [Pulsador y LED](laboratorios/02-pulsador-y-led) | Entradas digitales y antirrebote: encender al presionar, interruptor y temporizador de 5 s | [P1](https://www.tinkercad.com/things/fTjgmyWP85D-laboratorio-2-programa-1-) · [P2](https://www.tinkercad.com/things/eUZwfgAHyme-laboratorio-2-programa-2) · [P3](https://www.tinkercad.com/things/fdRvRInnSUR-laboratorio-2-programa-3) | <img src="laboratorios/02-pulsador-y-led/montaje.jpg" width="120"> |
-| 3 | [Brillo con potenciómetro](laboratorios/03-brillo-con-potenciometro) | Entrada analógica y salida PWM | [Tinkercad](https://www.tinkercad.com/things/1IsWS8x6Smr-laboratorio-3-programa-2-) | <img src="laboratorios/03-brillo-con-potenciometro/montaje.jpg" width="120"> |
-| 4 | [Temperatura con LM35](laboratorios/04-temperatura-lm35) | Conversión de voltaje a °C y promedio de 5 lecturas para reducir ruido | [P1](https://www.tinkercad.com/things/dye3I4zzyhT-laboratorio-4-programa-1) · [P2](https://www.tinkercad.com/things/40ldhTSLQZr-laboratorio-4-programa-2-) | <img src="laboratorios/04-temperatura-lm35/montaje.jpg" width="120"> |
+| 1 | [Parpadeo de un LED](laboratorios/01-parpadeo-led) | Salidas digitales y tiempos con `delay()` | <a href="https://www.tinkercad.com/things/cYyP2rRWnsI-laboratorio-1"><img src="laboratorios/01-parpadeo-led/simulador.png" width="180" alt="Circuito del laboratorio 1 en el simulador"></a> | [Tinkercad](https://www.tinkercad.com/things/cYyP2rRWnsI-laboratorio-1) |
+| 2 | [Pulsador y LED](laboratorios/02-pulsador-y-led) | Entradas digitales y antirrebote: encender al presionar, interruptor y temporizador de 5 s | <a href="https://www.tinkercad.com/things/eUZwfgAHyme-laboratorio-2-programa-2"><img src="laboratorios/02-pulsador-y-led/simulador.png" width="180" alt="Circuito del laboratorio 2 en el simulador"></a> | [P1](https://www.tinkercad.com/things/fTjgmyWP85D-laboratorio-2-programa-1-) · [P2](https://www.tinkercad.com/things/eUZwfgAHyme-laboratorio-2-programa-2) · [P3](https://www.tinkercad.com/things/fdRvRInnSUR-laboratorio-2-programa-3) |
+| 3 | [Brillo con potenciómetro](laboratorios/03-brillo-con-potenciometro) | Entrada analógica y salida PWM | <a href="https://www.tinkercad.com/things/1IsWS8x6Smr-laboratorio-3-programa-2-"><img src="laboratorios/03-brillo-con-potenciometro/simulador.png" width="180" alt="Circuito del laboratorio 3 en el simulador"></a> | [Tinkercad](https://www.tinkercad.com/things/1IsWS8x6Smr-laboratorio-3-programa-2-) |
+| 4 | [Temperatura con LM35](laboratorios/04-temperatura-lm35) | Conversión de voltaje a °C y promedio de 5 lecturas para reducir ruido | <a href="https://www.tinkercad.com/things/dye3I4zzyhT-laboratorio-4-programa-1"><img src="laboratorios/04-temperatura-lm35/simulador.png" width="180" alt="Circuito del laboratorio 4 en el simulador"></a> | [P1](https://www.tinkercad.com/things/dye3I4zzyhT-laboratorio-4-programa-1) · [P2](https://www.tinkercad.com/things/40ldhTSLQZr-laboratorio-4-programa-2-) |
 | 5 | [Temperatura y humedad con DHT](laboratorios/05-temperatura-y-humedad-dht) | Sensores digitales con librería (DHT11 y DHT22) | [Wokwi](https://wokwi.com/projects/443383524071750657) | |
 | 6 | [Reto: DHT + LM35 + LCD](laboratorios/06-reto-dht-lm35-lcd) | Dos sensores a la vez, pantalla LCD 16×2, manejo de errores y lecturas cada 2,5 s con `millis()` | | <img src="laboratorios/06-reto-dht-lm35-lcd/montaje.jpg" width="120"> |
-| 7 | [Sensor ultrasónico HC-SR04](laboratorios/07-sensor-ultrasonico) | Medir distancia con `pulseIn()` y alarma con LED a menos de 20 cm | [P1](https://www.tinkercad.com/things/kaRqVSSGK9M-laboratorio-5-programa-1-) · [P2](https://www.tinkercad.com/things/6CXB2UmhYTK-laboratorio-5-programa-2) | <img src="laboratorios/07-sensor-ultrasonico/montaje.jpg" width="120"> |
+| 7 | [Sensor ultrasónico HC-SR04](laboratorios/07-sensor-ultrasonico) | Medir distancia con `pulseIn()` y alarma con LED a menos de 20 cm | <a href="https://www.tinkercad.com/things/6CXB2UmhYTK-laboratorio-5-programa-2"><img src="laboratorios/07-sensor-ultrasonico/simulador.png" width="180" alt="Circuito del laboratorio 7 en el simulador"></a> | [P1](https://www.tinkercad.com/things/kaRqVSSGK9M-laboratorio-5-programa-1-) · [P2](https://www.tinkercad.com/things/6CXB2UmhYTK-laboratorio-5-programa-2) |
 
 > En los laboratorios 5 y 6 se usaron sensores DHT11 y DHT22. El código está configurado para DHT22; para un DHT11 basta con cambiar el tipo de sensor en una línea.
 
@@ -83,7 +83,7 @@ Carro de dos motores DC armado y programado por etapas con el shield **L298P** (
 ## Estructura
 
 ```
-laboratorios/        7 laboratorios: código (.ino) y foto del montaje
+laboratorios/        7 laboratorios: código (.ino), circuito del simulador y foto del montaje
 multibot/            4 etapas del carro MultiBot
 proyecto-final-rfid/ cerradura con RFID: código y presentación
 ```
